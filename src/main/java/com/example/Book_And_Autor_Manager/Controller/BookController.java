@@ -79,7 +79,7 @@ public class BookController {
         }
     }
 
-    // Reset data of a player username score level except email
+    // update title or gender of a book
     @PutMapping("/{id}")
     public ResponseEntity<?> updateBook(@PathVariable Long id, @RequestBody BooksAuthorDto booksAuthorDto) {
         try {

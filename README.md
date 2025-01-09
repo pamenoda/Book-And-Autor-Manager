@@ -1,2 +1,0 @@
-# Book-And-Autor-Manager
- 
